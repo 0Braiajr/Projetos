@@ -90,6 +90,7 @@ for linha in sheet_produtos.iter_rows(min_row=2):
     #CLICAR PARA IR PARA PRÓXIMA PÁGINA---
 
     pyautogui.click(1354,840,duration=1)
+    sleep(3)
 
     #3 PÁGINA   -----
 
@@ -120,6 +121,7 @@ for linha in sheet_produtos.iter_rows(min_row=2):
 
     #CLICAR EM CONCLUIR---
     pyautogui.click(1356,823,duration=1)
+    sleep(1)
 
     #CLICAR EM OK---
     pyautogui.click(1757,229,duration=1)
